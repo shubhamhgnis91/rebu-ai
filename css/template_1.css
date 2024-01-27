@@ -1,0 +1,108 @@
+body
+{
+    margin: 15px 30px 15px 30px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    
+
+.personal{
+    float:left;
+    width: 20%;;
+    height: 100%;
+    background: #d3dae0;
+    text-align: center;
+    color: #3a3d44;
+    font-size: 16px;
+    position: fixed;
+}
+
+.container{
+    text-align: center;
+    width: 100%;
+    float: right;
+}
+
+.heading-1{
+    font-size: 20px;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    background: #3a3d44;
+    color: white;
+    
+}
+
+.container table{
+    table-layout: fixed;
+    width:82%;
+    margin:auto;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-collapse: collapse;
+    border: 3px solid #3a3d44;
+    letter-spacing: 2px;
+}
+
+.container td{
+    text-align: center;
+    padding: 20px;
+}
+
+.container th{
+    font-family: 'Rock Salt', cursive;
+    font-size: 17px;
+
+
+}
+
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.top{
+    text-align: center;
+    font-size: 17px;
+}
+
+.container2{
+    font-size: 17px;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+
+
+dt, dd {
+    display: inline-block;
+    margin: 0;
+  }
+  dt {
+    font-family: 'Rock Salt', cursive;
+    font-weight: bold;
+  }
+ 
+  .bt2{
+    margin-top: 1.6em;
+    text-align: center;
+    background-color: #11A683;
+    border: none;
+    height: 45px;
+    width: 200px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    
+}
+
+.bt2:hover{
+    background-color: #0c6954;
+    cursor: pointer;
+    transition-duration: 0.5s;
+
+}

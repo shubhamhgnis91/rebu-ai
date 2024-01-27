@@ -1,0 +1,168 @@
+
+body{
+    margin:0px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #E3FBFE;
+  }
+
+.logo {
+    
+    height: 86px;
+    width: 300px;
+    float: left;
+    padding-left: 30px;
+    padding-right: 300px;
+      
+}
+.navigation-bar img{
+    width: 150px;  
+    height: 86px; 
+    
+}
+
+.navigation-bar {
+    width: 100%;  
+    height: 86px; 
+    background-color:#EDEEF7;
+}
+
+.navigation-bar ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+
+.navigation-bar li{
+    float: left;
+    
+}
+
+.nav-links {
+    display: block;
+    color: black;
+    text-align: center;
+    margin:0;
+    padding:30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links:hover {
+    background-color: #11A683;
+    border-radius: 7px;
+    transition-duration: 0.5s;
+
+}
+
+.bt1{
+    float: right;
+    margin-top: 1.3em;
+    margin-right: 6em;
+    text-align: center;
+    background-color: #7868E6;
+    border:none;
+    border-radius: 3px;
+    height: 45px;
+    width: 100px;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+.bt1:hover{
+    cursor: pointer;
+    background:#4c4194;
+    transition-duration: 0.5s;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.container-1{
+    width: 30%;
+    height: 50%;
+    margin: 50px;
+    padding: 16px;
+    text-align: left;
+    float: left;
+}
+
+
+
+.container-1 p{
+    font-size: 16px;
+}
+
+.bt2{
+    margin-top: 1.6em;
+    text-align: center;
+    background-color: #11A683;
+    border: none;
+    height: 45px;
+    width: 200px;
+    padding: 10px;
+    font-size: 15px;
+    
+}
+
+.bt2:hover{
+    background-color: #0c6954;
+    cursor: pointer;
+    transition-duration: 0.5s;
+
+}
+
+.img-box img{
+    height: 100%;
+    width: 50%;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 40px;
+    float: left;
+
+}
+
+.img-box p{
+    padding-bottom: 350px;
+}
+
+.img-box1{
+    height: 80%;
+    width: 55%;
+    margin-top: 50px;
+    float: right;
+}
+
+.img-box1 img{
+    height:100%;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #7868E6;
+  color: white;
+  text-align: center;
+}
+
+.main{
+    margin: 100px;
+    padding: 20px;
+    text-align: center;
+    font-weight: 300;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}

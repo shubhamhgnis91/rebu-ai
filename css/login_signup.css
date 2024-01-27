@@ -1,0 +1,73 @@
+body {
+background-color: #E3FBFE;
+font-family: 'Roboto Mono', monospace;
+}
+
+.main {
+background-color:white;
+width: 400px;
+height:500px;
+margin: 7em auto;
+border-radius: 1.5em;
+box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey;
+
+}
+
+.sign {
+  padding-top: 40px;
+  color: black;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+}
+
+.text-box {
+  width: 76%;
+  color:black;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: #f2f2f2;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10em;
+  border: 2px solid #c9c9c9;
+  margin-bottom: 27px;
+  margin-left: 46px;
+  text-align: center;
+  outline:none;
+
+}
+
+form{
+padding-top: 40px;
+}
+
+.submit {
+  border-radius: 10px;
+  color: white;
+  background: #7868E6;
+  border: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-left: 35%;
+  font-size: 13px;
+}
+
+.submit:hover{
+  cursor: pointer;
+  background: #4c4194;
+}
+
+
+.forgot, .new , .exist, .company {
+  text-align: center;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+  font-weight: 300;
+}
