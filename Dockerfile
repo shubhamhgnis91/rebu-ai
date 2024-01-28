@@ -22,8 +22,6 @@ COPY . .
 
 RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
 
-COPY docker/apache/000-default.conf /etc/apache2/sites-available/000-default.conf
-
 COPY --from=deps app/vendor/ /var/www/html/vendor
 
 USER www-data
