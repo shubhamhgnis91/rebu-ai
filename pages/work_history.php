@@ -68,7 +68,7 @@
 <?php
 session_start();
 include("../includes/session_check.php");
-include("../includeds/dbconn.php");
+include("../includes/dbconn.php");
 
 if(isset($_POST['submit']))
 {

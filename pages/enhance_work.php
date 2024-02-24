@@ -1,29 +1,33 @@
 <?php
-require '../vendor/autoload.php';
 
-use Orhanerday\OpenAi\OpenAi;
-
-$open_ai_key = getenv('OPENAI_API_KEY');
-
-$open_ai = new OpenAi($open_ai_key);
+$env = parse_ini_file("../.env");
+$API_KEY = getenv('GEMINI_API_KEY');
 
 $description = $_POST["prompt"];
 
-$prompt = "enhance this work description for my resume in 150 words" . "\n" . $description;
+$data = array(
+    "contents" => array(
+        array(
+            "parts" => array(
+                array(
+                    "text" => "Enhance this work description for my resume in 150 words without any formatting\n" . $description,
+                )
+            )
+        )
+    )
+);
 
-$complete = $open_ai->completion([
-    'model' => 'gpt-3.5-turbo-instruct',
-    'prompt' => $prompt,
-    'temperature' => 0.9,
-    'max_tokens' => 150,
-    'frequency_penalty' => 0,
-    'presence_penalty' => 0.6,
- ]);
+$options = array(
+    'http' => array(
+        'header'  => "Content-type: application/json\r\n",
+        'method'  => 'POST',
+        'content' => json_encode($data),
+    ),
+);
+$context  = stream_context_create($options);
+$result = file_get_contents('https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=' . $API_KEY, false, $context);
 
+$text = json_decode($result, true);
+$output = $text['candidates'][0]['content']['parts'][0]['text'];
 
-$resposne = json_decode($complete, true);
-
-$enhancedDesc = $resposne['choices'][0]['text'];
-
-echo $enhancedDesc;
-
+echo $output;

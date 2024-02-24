@@ -6,4 +6,3 @@
                 window.location="login.php";
               </script>';
     }
-?>
