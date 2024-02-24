@@ -23,7 +23,7 @@
 
     <body>
         <div class="snav">
-                <a href="../pages/index.php">Home</a>
+                <a href="../index.php">Home</a>
                 <a href="../pages/education.php">Education Details</a>
                 <a href="../pages/work_history.php">Work Experience</a>
                 <a href="../pages/resume.php" class="active">Personal Information</a>

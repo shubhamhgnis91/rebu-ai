@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "Home";
 
-include('../templates/header.php');
+include('templates/header.php');
 ?>
 
 <div>
@@ -19,14 +19,14 @@ include('../templates/header.php');
         </p>
 
         <button class="bt2">
-            <a href="../pages/login.php">
+            <a href="pages/login.php">
                 TRY IT NOW
             </a>
         </button>
 
     </div>
     <div class="img-box1">
-        <img src="../images/template2.png" alt="">
+        <img src="images/template2.png" alt="">
 
     </div>
 </div>

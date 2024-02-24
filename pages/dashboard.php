@@ -37,7 +37,7 @@ if ($result) {
         <div class="navigation-bar">
         <img class="logo" src="../images/logo.png" style="padding-right: 20px;">
             <ul>
-                <li><a class="nav-links" href="../pages/index.php">Home</a></li>
+                <li><a class="nav-links" href="../index.php">Home</a></li>
                 
                 <?php if ($_SESSION["rflag"] == 1) {
                     echo '<li><a class="nav-links" href="../pages/view_resume.php">My Resume</a></li>';

@@ -13,7 +13,7 @@
     <div class="navigation-bar">
         <img class="logo" src="../images/logo.png">
         <ul>
-            <li><a class="nav-links" href="../pages/index.php">Home</a></li>
+            <li><a class="nav-links" href="../index.php">Home</a></li>
             <li><a class="nav-links" href="../pages/templates.php">Templates</a></li>
             <li><a class="nav-links" href="../pages/about.php">About</a></li>
             <li><a class="nav-links" href="../pages/contact.php">Contact</a></li>
