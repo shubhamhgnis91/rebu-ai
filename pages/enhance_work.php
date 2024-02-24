@@ -1,6 +1,5 @@
 <?php
 
-$env = parse_ini_file("../.env");
 $API_KEY = getenv('GEMINI_API_KEY');
 
 $description = $_POST["prompt"];
