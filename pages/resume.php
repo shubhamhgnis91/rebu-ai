@@ -97,7 +97,7 @@ if (isset($_POST["submit"])) {
     $skill_arr = $_POST["skills"];
     $lang_arr = $_POST["lang"];
     $hobbies = $_POST["hobbies"];
-    $bio = $_POST["bio"];
+    $bio = $_POST["inputDesc"];
 
     $query =
         "insert into resume(fname,lname,address,city,dob,phone,u_id,job_role) values('" .
