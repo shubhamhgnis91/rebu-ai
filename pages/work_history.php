@@ -49,7 +49,7 @@
         </form>
     </div>
     <div class="footer">
-        <p>ReBu 2023 &copy;</p>
+        <p>ReBu <?php echo date("Y"); ?> &copy;</p>
     </div>
     <script src="../scripts/processDescription.js"></script>
     
