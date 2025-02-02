@@ -24,7 +24,7 @@ $options = array(
     ),
 );
 $context  = stream_context_create($options);
-$result = file_get_contents('https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=' . $API_KEY, false, $context);
+$result = file_get_contents('https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=' . $API_KEY, false, $context);
 
 $text = json_decode($result, true);
 $output = $text['candidates'][0]['content']['parts'][0]['text'];
