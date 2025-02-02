@@ -9,7 +9,7 @@ $data = array(
         array(
             "parts" => array(
                 array(
-                    "text" => "Enhance this work description for my resume in 150 words without any formatting\n" . $description,
+                    "text" => "Enhance this work description for my resume in 150 words without any formatting like bold etc. give in points. each point in a new line. do not use bullets etc.\n" . $description,
                 )
             )
         )
